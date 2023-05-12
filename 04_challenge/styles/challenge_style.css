@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(231, 150, 177);
+}
+ 
+p {
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   width: 40%;
+   
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.0em;
+    margin: 5 auto;
+    font-family: sans-serif;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.quote {
+    font-size: 2.0em;
+    width: 25%;
+    margin-top: 2%;
+}
+div {
+    width: 35%;
+    margin: 0 auto;
+    color: black;
+    font-family: sans-serif;
+    text-align: left;
+}
+footer{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.speaker_title{
+    color: black;
+    font-family: sans-serif;
+}
+*{
+    border: 2px solid blue
+}
