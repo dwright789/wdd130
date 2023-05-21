@@ -1,0 +1,36 @@
+div{
+    max-width: 1600px;
+}
+#content{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+#title_img{
+    width: 100%;
+}
+
+#circles_box{
+    background: gray;
+    width: 100%;
+}
+
+#desk{
+    border-radius: 50%;
+    width: 20%;
+    border: 20px solid rgb(71, 71, 71);
+    margin: 80px;
+}
+#ball{
+    border-radius: 50%;
+    width: 20%;
+    border: 20px solid rgb(71, 71, 71);
+    margin: 80px;
+}
+#person{
+    border-radius: 50%;
+    width: 20%;
+    border: 20px solid rgb(71, 71, 71);
+    margin: 80px;
+}

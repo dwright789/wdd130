@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&family=Rock+Salt&display=swap');
+
 div{
     max-width: 1600px;
 }
@@ -8,6 +10,7 @@ nav a{
     text-align: center;
     color: #264653;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: white;
@@ -16,8 +19,12 @@ nav a:hover{
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -31,12 +38,19 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #264653;
 }
 body{
     background-color: white;
+    font-family: Comme, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #e9c46a;
@@ -45,23 +59,47 @@ header{
     background-color: #e76f51;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #2a9d8f;
     color: white;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.mountains{
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+.card-img{
+    border: 10px solid #264653;
+}
 .msg{
     background-color: #e9c46a;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #264653;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
 .msg p{
     color: #264653;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
 }
 footer{
     background-color: gray;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -76,9 +114,15 @@ footer a{
 footer a:hover{
     color: white;
 }
+.social img{
+    padding-top: 15px;
+}
 .home-title{
     color: #2a9d8f;
     text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #3e3e3e;
