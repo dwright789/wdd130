@@ -1,0 +1,39 @@
+
+#content{
+    margin: 0 auto;
+    
+}
+#hero-pic{
+    width: 100%;
+    border-radius: 50%;
+}
+.bottom-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgba(99, 99, 153, 0.836);
+    display: center;
+    
+    
+}
+#body-text{
+    font-size: 18px;
+    color: gray;
+}
+#post-number{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.readers, .views, .comments{
+    color: white;
+}
+#weeks{
+    color: rgba(99, 99, 153, 0.836);
+    
+}
+body{
+    width: 60%;
+    text-align: center;
+    display: center;
+}
