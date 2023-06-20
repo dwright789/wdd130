@@ -197,6 +197,98 @@ h4{
 
 
 
+/*sub-page "Rivers" css*/
+#river-page-content{
+    margin: 0 auto;
+}
+#river-hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#river-hero_box{
+    grid-column: 1/4;
+    grid-row: 1/3;   
+}
+#river-hero-img{
+    width: 100%;
+}
+#river-hero_msg{
+    grid-column: 2/3;
+    grid-row: 1/2; 
+    text-align: center;
+}
+.river-title{
+    color: white;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+
+.river-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+}
+.salmon-river{
+    grid-column: 4/11; 
+}
+.salmon-river h2{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;;
+}
+.desolation-river{
+    grid-column: 4/11;
+    background-color:#e9c46a;
+}
+.desolation-river h2{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;;
+}
+.grand-canyon-river{
+    grid-column: 4/11;
+}
+.grand-canyon-river h2{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+.river-grid-img{
+    grid-column: 1/4;  
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border: 10px solid #264653;
+    width: 90%;
+}
+
+.desolation-river p{
+    text-align: left;
+}
+.salmon-river p{
+    text-align: left;
+}
+.grand-canyon-river p{
+    text-align: left;
+}
+.salmon-river, .desolation-river, .grand-canyon-river{
+    margin: 20px 30px;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
