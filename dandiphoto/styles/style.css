@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&display=swap');
+
+div{
+    max-width: 1600px;
+}
+#content{
+    margin: 0 auto;    
+}
+header{
+    background-color: #FF5C95;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: black;
+    padding: 35px;  
+    text-decoration: none;  
+}
+nav a:hover{
+    background-color: #38A3A5;
+    color: white;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+}
+
+
+main{
+    max-width: 900px;
+    margin: 0 auto; 
+    background-color: whitesmoke; 
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;  
+    font-family: 'Open Sans', sans-serif;    
+}
+h1{
+    text-align: center;
+    font-family: 'bad script', cursive;
+    color: #22577A;
+}
+p{
+    text-align: left;
+    line-height: 24px;
+    color: #22577A;      
+}
+
+.double-pic-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    margin-top: 50px;
+    
+}
+.tips-pic, .ideas-pic{
+    width: 90%;
+    display: block;
+    border: 5px solid #38A3A5;
+    margin: auto;
+}   
+.tips-link, .ideas-link{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    color: #22577A;
+    font-weight: 550;
+}   
+.tips-link:hover, .ideas-link:hover{
+    color:#FF5C95 ;
+}
+
+.tips-page{
+    grid-column: 1/4;
+}
+
+.ideas-page{
+    grid-column: 4/7;
+}
+
+footer{
+    background-color: #8EA6B8;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
