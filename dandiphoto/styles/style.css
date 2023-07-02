@@ -19,7 +19,7 @@ nav{
 nav a{
     text-align: center;
     color: black;
-    padding: 35px;  
+    padding: 50px;  
     text-decoration: none;  
 }
 nav a:hover{
@@ -32,10 +32,12 @@ nav a:hover{
     width: 80px;
 }
 #logo_link{
-    padding-top: 5px;
+    padding-top: 20px;
     justify-self: center;
 }
+body{font-family: 'Open Sans', sans-serif;    
 
+}
 
 main{
     max-width: 900px;
@@ -45,7 +47,7 @@ main{
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 30px;  
-    font-family: 'Open Sans', sans-serif;    
+    
 }
 h1{
     text-align: center;
@@ -77,7 +79,8 @@ p{
     padding-top: 30px;
     text-decoration: none;
     color: #22577A;
-    font-weight: 550;
+    font-weight: 600;
+    
 }   
 .tips-link:hover, .ideas-link:hover{
     color:#FF5C95 ;
@@ -98,7 +101,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;;
+    
 }
 footer a{
     color: white;
